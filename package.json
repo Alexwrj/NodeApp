@@ -1,0 +1,29 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexwrj/NodeApp.git"
+  },
+  "author": "alexfad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexwrj/NodeApp/issues"
+  },
+  "homepage": "https://github.com/Alexwrj/NodeApp#readme",
+  "_moduleAliases": {
+      "@root": ".",
+      "@BudgetManager": "./services/BudgetManagerAPI/app/models",
+      "@BudgetManagerModels": "./services/BudgetManagerAPI/config/app.js",
+      "@BudgetManagerAPI": "./services/BudgetManagerAPI/config/index.js"
+  },
+
+  "dependencies": {
+    
+  }
+}

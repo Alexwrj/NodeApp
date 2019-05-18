@@ -17,13 +17,23 @@
   },
   "homepage": "https://github.com/Alexwrj/NodeApp#readme",
   "_moduleAliases": {
-      "@root": ".",
-      "@BudgetManager": "./services/BudgetManagerAPI/app/models",
-      "@BudgetManagerModels": "./services/BudgetManagerAPI/config/app.js",
-      "@BudgetManagerAPI": "./services/BudgetManagerAPI/config/index.js"
+    "@root": ".",
+    "@BudgetManager": "./services/BudgetManagerAPI/app/models",
+    "@BudgetManagerModels": "./services/BudgetManagerAPI/config/app.js",
+    "@BudgetManagerAPI": "./services/BudgetManagerAPI/config/index.js"
   },
-
   "dependencies": {
-    
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.5.8",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
   }
 }
